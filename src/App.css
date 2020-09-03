@@ -1,0 +1,123 @@
+.App{
+  display: grid;
+  height: 100vh;
+  background: rgb(163, 163, 235);
+  grid-template-rows: 100px 1fr;
+  justify-content: center;
+}
+
+.signup-form{
+  display: flex;
+  justify-content: center;
+    border-radius: 15px;
+  width: 400px;
+  height: 300px;
+  background: white;
+ 
+}
+
+.step-links{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  border-bottom: tomato;
+  color: black;
+  margin-bottom:   20px ;
+  padding-bottom: 15px;
+  border-bottom: 2px solid white;
+  
+}
+
+
+.step-links a{
+  margin-left: 20px;
+  text-decoration-line: none;
+  color: black;
+
+}
+.step-links a span{
+   background-color: white;
+   position: absolute;
+  width:10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-top: 32px;
+  margin-left: -65px
+}
+.step-links a.active{
+  color: rgb(26, 226, 216);
+}
+.step-links a.active span{
+  
+  background: black;
+
+}
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+input{
+  display: flex;
+  justify-content: center;
+  height:50px;
+  width:300px;
+  border-radius: 20px;
+  background-color: rgb(26, 226, 216);
+  margin-bottom: 5px;
+  border:none;
+  outline: none;
+}
+input[type='text' i] {
+  font-size: 15px;
+  color: rgb(84, 84, 189);
+  padding-left: 20px;
+ }
+
+input[type='text' i]::placeholder{
+  color: brown;
+  padding-left: 5px;
+}
+ 
+input[type='email' i] {
+  font-size: 15px;
+  color: rgb(84, 84, 189);
+  padding-left: 20px;
+}
+input[type='email' i]::placeholder{
+  color: brown;
+  padding-left: 5px;
+  
+
+}
+
+input[type='submit' i ] {
+  display: flex;
+  color: black;
+  width: 100px;
+  margin-left:200px;
+}
+h6{
+  margin: 5px;
+  color: red;
+  font-size: 10px;
+}
+p{
+  margin: 10px;
+  color: rgb(84, 84, 189);
+}
+p span {
+  margin-left: 20px;
+  border-bottom: 2px solid orange;
+}
+h3{
+  font-size: 1.5rem;
+  margin: 5px ;
+  padding-bottom: 5px;
+  border-bottom: 2px solid orange;
+  text-align: center;
+}
+h2{
+  border-bottom: 2px solid orange;
+  text-align: center;
+}
